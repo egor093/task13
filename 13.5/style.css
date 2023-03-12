@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.widget{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.curren{
+    width: 400px;
+    padding: 10px;
+    background-color:aquamarine;
+}
+.forecast{
+    width: 400px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.locations{
+    display: flex;
+    flex-direction: column;
+}
+.weather{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.winds{
+    display: flex;
+    justify-content: space-between;
+}
+.day{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
